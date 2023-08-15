@@ -11,6 +11,7 @@ namespace DataRepository
     {
         public Employee() { }
         public int Id { get; set; }
+        public string EmployeeNumber { get; set; }
 
         public string FirstName { get; set; }
 
@@ -33,6 +34,7 @@ namespace DataRepository
             return
                     string.Format($"" +
                     $"{Id}\t" +
+                     $"{EmployeeNumber}\t" +
                     $" {String.Concat(LastName, ", ", FirstName).PadRight(15, ' ')}\t" +
                     $"{HireDate.Date.ToShortDateString()}\t" +
                     $"{Gender.PadRight(10, ' ')}\t" +
