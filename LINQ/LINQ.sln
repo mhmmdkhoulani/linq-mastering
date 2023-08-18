@@ -17,11 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSorting", "DataSorting\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantifiers", "Quantifiers\Quantifiers.csproj", "{997AD502-60ED-4865-8E46-0A1D0DF8370C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupingData", "GroupingData\GroupingData.csproj", "{79E8B350-1C25-401E-8749-CA1849F2A60F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupingData", "GroupingData\GroupingData.csproj", "{79E8B350-1C25-401E-8749-CA1849F2A60F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinOperation", "JoinOperation\JoinOperation.csproj", "{6918A878-4E53-4D7F-ADB0-0CBE761EB6F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoinOperation", "JoinOperation\JoinOperation.csproj", "{6918A878-4E53-4D7F-ADB0-0CBE761EB6F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeRepository", "EmployeeRepository\EmployeeRepository.csproj", "{080A0A9E-5511-4BD9-BB60-41593C250FC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeRepository", "EmployeeRepository\EmployeeRepository.csproj", "{080A0A9E-5511-4BD9-BB60-41593C250FC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationOperations", "GenerationOperations\GenerationOperations.csproj", "{D55D2E50-4035-410F-AF87-ED06914A71C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestionRepository", "QuestionRepository\QuestionRepository.csproj", "{EAC9A4C5-8E8E-4EFD-AAC0-3B5ECE516A32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{080A0A9E-5511-4BD9-BB60-41593C250FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{080A0A9E-5511-4BD9-BB60-41593C250FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{080A0A9E-5511-4BD9-BB60-41593C250FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55D2E50-4035-410F-AF87-ED06914A71C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55D2E50-4035-410F-AF87-ED06914A71C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55D2E50-4035-410F-AF87-ED06914A71C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55D2E50-4035-410F-AF87-ED06914A71C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC9A4C5-8E8E-4EFD-AAC0-3B5ECE516A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC9A4C5-8E8E-4EFD-AAC0-3B5ECE516A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC9A4C5-8E8E-4EFD-AAC0-3B5ECE516A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC9A4C5-8E8E-4EFD-AAC0-3B5ECE516A32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
