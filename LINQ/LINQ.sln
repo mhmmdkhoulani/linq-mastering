@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoinOperation", "JoinOperat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeRepository", "EmployeeRepository\EmployeeRepository.csproj", "{080A0A9E-5511-4BD9-BB60-41593C250FC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationOperations", "GenerationOperations\GenerationOperations.csproj", "{D55D2E50-4035-410F-AF87-ED06914A71C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerationOperations", "GenerationOperations\GenerationOperations.csproj", "{D55D2E50-4035-410F-AF87-ED06914A71C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestionRepository", "QuestionRepository\QuestionRepository.csproj", "{EAC9A4C5-8E8E-4EFD-AAC0-3B5ECE516A32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestionRepository", "QuestionRepository\QuestionRepository.csproj", "{EAC9A4C5-8E8E-4EFD-AAC0-3B5ECE516A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementOperations", "ElementOperations\ElementOperations.csproj", "{D7974084-E082-4E46-88A9-6720387B827C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{EAC9A4C5-8E8E-4EFD-AAC0-3B5ECE516A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAC9A4C5-8E8E-4EFD-AAC0-3B5ECE516A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAC9A4C5-8E8E-4EFD-AAC0-3B5ECE516A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7974084-E082-4E46-88A9-6720387B827C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7974084-E082-4E46-88A9-6720387B827C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7974084-E082-4E46-88A9-6720387B827C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7974084-E082-4E46-88A9-6720387B827C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
