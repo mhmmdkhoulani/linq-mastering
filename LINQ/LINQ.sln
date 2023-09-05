@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerationOperations", "Gen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestionRepository", "QuestionRepository\QuestionRepository.csproj", "{EAC9A4C5-8E8E-4EFD-AAC0-3B5ECE516A32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementOperations", "ElementOperations\ElementOperations.csproj", "{D7974084-E082-4E46-88A9-6720387B827C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElementOperations", "ElementOperations\ElementOperations.csproj", "{D7974084-E082-4E46-88A9-6720387B827C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualityOperations", "EqualityOperations\EqualityOperations.csproj", "{A4F5197C-BE9A-4CA8-8312-83C04D0E9F65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{D7974084-E082-4E46-88A9-6720387B827C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7974084-E082-4E46-88A9-6720387B827C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7974084-E082-4E46-88A9-6720387B827C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F5197C-BE9A-4CA8-8312-83C04D0E9F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F5197C-BE9A-4CA8-8312-83C04D0E9F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F5197C-BE9A-4CA8-8312-83C04D0E9F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F5197C-BE9A-4CA8-8312-83C04D0E9F65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

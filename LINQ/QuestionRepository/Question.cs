@@ -37,5 +37,28 @@
             return $"{Title}" +
                    $"{choices}";
         }
+
+        public override bool Equals(object? obj)
+        {
+            if (ReferenceEquals(null, obj)) return false;
+            if (ReferenceEquals(this, obj)) return true;
+            if (obj.GetType() != this.GetType()) return false;
+            Question question = (Question)obj;
+
+            return Title.Equals(question.Title)
+                && CorrectAnswer == question.CorrectAnswer
+                && Choices.SequenceEqual(question.Choices);
+        }
+
+        public override int GetHashCode()
+        {
+
+            int hash = 17;
+            hash = hash * 23 + Title.GetHashCode();
+            hash = hash * 23 + CorrectAnswer.GetHashCode();
+            hash = hash * 23 + Choices.GetHashCode();
+
+            return hash;
+        }
     }
 }
